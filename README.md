@@ -5,7 +5,7 @@ The project demonstrates how to use asynchronous microservice communication usin
 
 
 # Main flow
-<img src="architecture.jpg" width=1200/>
+<img src="architecture.jpg" width=1800/>
 
 <ol type="1">
   <li>Client send "delete-order" request </li>
