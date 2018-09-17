@@ -17,3 +17,11 @@ The project demonstrates how to use asynchronous microservice communication usin
   <li>"Service-order v1.1" deletes order and sends response to "Service-order-responses" with marker  "requester_id=1"</li>
   <li>EDGE SERVICE task(task 1) receives result, because it matches his filter. It gets blocked HTTP connection and add result back</li>
 </ol>
+
+# Benefits
+<ol type="1">
+  <li>Only one ALB for EDGE SERVICE. Don't need Eureka or another Service Discovery</li>
+  <li>Back pressure</li>
+  <li>No timeout/retries during inter-service communication </li>
+  <li>Blue-green deployment support</li>
+</ol>
